@@ -38,7 +38,7 @@ $ stats migrate <curr_server_id> <#_of_evicting_servers_n> <id_1> <id_2> ... <id
 ```
 
 ### stats scores
-Returns the r/n^th timestamp for each slab along with the percentage of pages allocated to each slab where **n** is the initial number of servers and **r** is the number of retaining servers after a down-scaling event. This is useful for deciding which server to evict.  
+Returns the (**r/n**)^{th} timestamp for each slab along with the percentage of pages allocated to each slab where **n** is the initial number of servers and **r** is the number of retaining servers after a down-scaling event. This is useful for deciding which server to evict.  
 Usage:  
 ```
 $ stats score <n> <r>
